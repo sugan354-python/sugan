@@ -1,0 +1,11 @@
+empnum=[10,20,30,40,50]
+print("===========forward/positive======")
+print(empnum[0])
+print(empnum[1])
+print(empnum[2])
+print(empnum[3])
+print("===========backward/negative======")
+print(empnum[-1])
+print(empnum[-2])
+print(empnum[-3])
+print(empnum[-4])

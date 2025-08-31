@@ -1,0 +1,8 @@
+name=input("enetr the name:")
+add=input("enter the address:")
+fo=open('msg.txt','w')
+fo.write(name+''+add)
+fo.close()
+fo=open('msg.txt','r')
+print(fo.read())
+fo.close()

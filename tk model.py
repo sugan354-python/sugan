@@ -1,0 +1,16 @@
+from tkinter import *
+signup=Tk()
+signup.title("signup page")
+def getData():
+    rfName=fName.get()
+    r1Name=lName.get()
+    print("frist Name:",rfName)
+    print("Last name:",rlName)
+label(signup,text="Frist Name",bg="red").grid(row=0,column=0)
+label(signup,text="last Name",bg="orange").grid(row=1,column=1)
+Name=Entry(signup)
+Name.grid(row=0,column=1)
+Name=Entry(signup)
+Name.grid(row=1,column=1)
+button(signup,text="submit",bg="blue",command=getData).grid(row=2,column=0)
+signup.mainloop()
